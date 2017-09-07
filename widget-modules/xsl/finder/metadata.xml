@@ -1,0 +1,55 @@
+<module_data>
+	<asset_properties>
+		<!--if path is empty it will create new otherwise it's going to update.
+            Your local XSL file name must match the file name in PB.  TODO: This will change to grab whatever XSL file you have locally (because you only have one XSL per folder) and map that to the value field of this XML node.
+          -->
+		<asset_property>
+			<name>path</name>
+			<value>/webmd/PageBuilder_Assets/XSL/EditorialModule/Physician Directory Care Finder Module_091e9c5e81270d90.xsl</value>
+		</asset_property>
+
+        <!-- Most of these fields either come from D2 or ATS -->
+		<asset_property>
+			<name>title</name>
+			<value>Physician Directory Finder</value>
+		</asset_property>
+		<asset_property>
+			<!-- Equivalent to PB's Description field -->
+            <name>subject</name>
+            <value>LHD Care Finder/Doctor Finder module. Possibly ad-served.</value>
+        </asset_property>
+		<asset_property>
+			<name>wbmd_site</name>
+			<value>1001</value>
+		</asset_property>
+		<asset_property>
+			<name>wbmd_pb_level</name>
+			<value>1</value>
+		</asset_property>
+		<asset_property>
+			<!-- Equivalent to PB's Module Type -->
+            <name>wbmd_pb_xsl_schema</name>
+            <value>EditorialModule</value>
+        </asset_property>
+		<asset_property>
+			<!-- Equivalent to PB's Category -->
+            <name>wbmd_pb_xsl_category</name>
+            <value></value>
+        </asset_property>
+	</asset_properties>
+
+	<!-- The path of the javascripts in dctm. If none, add an empty asset_javaScripts tag. -->
+	<asset_javaScripts />
+
+	<!-- The path of the css files in dctm. If none, add an empty asset_csses tag. -->
+	<asset_csses>
+        <css>
+            <!-- If path is empty OR the path doesn't exist, the tool will create new file in PB. Otherwise it's going to update. -->
+            <path>/webmd/PageBuilder_Assets/CSS/091e9c5e80005117/Physician Directory Finder/Responsive_091e9c5e813e20d2.css</path>
+            <title>Responsive</title> <!--  This will show up in the Title field in D2. -->
+			<subject></subject> <!-- Description in D2.  Does not exist for CSS -->
+            <file_name>Responsive_091e9c5e813e20d2.css</file_name> <!-- If this is an existing file in D2, file_name must match the file name in D2.  TODO: This will be changed later so that file_name will be the name of the file on your local machine. -->
+        </css>
+    </asset_csses>
+
+</module_data>

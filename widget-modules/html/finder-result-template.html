@@ -1,0 +1,39 @@
+<li class="result" data-provid="{id}">
+	{photo}
+	<div class="result-content">
+		<h4><a href="{url}" onclick="return sl(this,\'nw\',\'{metric}_rs{i}\');"><strong>{name}</strong> &gt;</a></h4>
+		<p>{specialties}</p>
+		{featured}
+		{rating}
+		<p class="address">
+			<strong>{location}</strong><br />
+			{address}<br />{address2}
+			{city}, {state} {zip}
+		</p>
+		<p class="telephone"><a href="tel:{number}" class="phone">{phone}</a></p>
+		{book}
+		{sponsorship}
+	</div>
+</li>
+<li class="result" data-provid="{id}">{photo}<div class="result-content"><h4><a href="{url}" onclick="return sl(this,\'nw\',\'{metric}_rs{i}\');"><strong>{name}</strong> &gt;</a></h4><p>{specialties}</p>{featured}{rating}<p class="address"><strong>{location}</strong><br />{address}<br />{address2}{city}, {state} {zip}</p><p class="telephone"><a href="tel:{number}" class="phone">{phone}</a></p>{book}</div></li>
+
+<div class="photo-tags"><img class="image" src="{photo}" alt="{alt}" />{featured}</div>
+
+<div class="star-rating">
+	<span class="rating overall" data-rating="{rating}">
+		<i{selected1}><a class="star" href="javascript://"><i class="icon-star" /></a></i>
+		<i{selected2}><a class="star" href="javascript://"><i class="icon-star" />{half2}</a></i>
+		<i{selected3}><a class="star" href="javascript://"><i class="icon-star" />{half3}</a></i>
+		<i{selected4}><a class="star" href="javascript://"><i class="icon-star" />{half4}</a></i>
+		<i{selected5}><a class="star" href="javascript://"><i class="icon-star" />{half5}</a></i>
+	</span>
+</div>
+<div class="star-rating"><span class="rating overall" data-rating="{rating}"><i{selected1}><a class="star" href="javascript://"><i class="icon-star" /></a></i><i{selected2}><a class="star" href="javascript://"><i class="icon-star" />{half2}</a></i><i{selected3}><a class="star" href="javascript://"><i class="icon-star" />{half3}</a></i><i{selected4}><a class="star" href="javascript://"><i class="icon-star" />{half4}</a></i><i{selected5}><a class="star" href="javascript://"><i class="icon-star" />{half5}</a></i></span></div>
+
+<p class="book-appt"><a href="{url}" onclick="return sl(this,\'nw\',\'{metric}_bk{i}\');"><strong>Book Appointment</strong></a></p>
+
+<div class="attribution">
+	<a href="{url}" onclick="return sl(this,\'\',\'{metric}_spon\');">{linkText}</a>
+	<img src="{image}" alt="{brandText}">
+</div>
+<div class="attribution"><a href="{url}" onclick="return sl(this,\'\',\'{metric}_spon\');">{linkText}</a><img src="{image}" alt="{brandText}"></div>

@@ -1,0 +1,116 @@
+/* TEMP Harmony styles */
+	.pd-search {
+		font-family: Lato,Arial,sans-serif;
+		font-size: 16px;
+		line-height: 1.4;
+	}
+	.pd-search *,
+	.pd-search :after,
+	.pd-search :before {
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	.pd-search .module {
+		margin-bottom: 1em;
+		outline: 1px solid #ddd;
+	}
+	.pd-search h3 {
+		font-family: "Roboto Slab", serif;
+		font-weight: 400;
+		font-size: 22px;
+		font-size: 2.2rem;
+	}
+	.pd-search form {
+		margin: 0;
+		padding: 0;
+	}
+	.pd-search input {
+		font-size: 100%;
+		margin: 0;
+		vertical-align: baseline;
+	}
+	.pd-search button,
+	.pd-search input[type=button],
+	.pd-search input[type=reset],
+	.pd-search input[type=submit] {
+		cursor: pointer;
+		-webkit-appearance: button;
+	}
+	.pd-search .webmdBtn,
+	.pd-search input[type=submit] {
+		border: none;
+		color: #fff;
+		background: #f67f00;
+		padding: 1em 2em;
+		border-radius: .5em;
+		margin: 1em 0;
+		font-size: .8em;
+	}
+	.pd-search ul {
+		background: 0 0;
+		border: 0;
+		vertical-align: baseline;
+		list-style: none;
+		list-style-image: none;
+		margin: 0;
+		padding: 0;
+		outline: 0;
+	}
+
+/* General Widget Styles */
+	.pd-search-cw {
+		background: url(../../../physician_directory/images/harmony-bg.jpg) 100% 0 no-repeat;
+		background-size: 100% auto;
+	}
+	.pd-search-cw h3 {
+		color: #222;
+		font-size: 2em;
+		font-family: inherit;
+		line-height: 1.2;
+		padding: 70px 0.8em 0;
+	}
+	.pd-search-cw h3 a {
+		cursor: pointer;
+		white-space: nowrap;
+	}
+	.pd-search-cw h3 form {
+		clear: both;
+		font-size: 16px;
+	}
+	.pd-search-cw h3 form input[type=text] {
+		border: 1px solid #ebebeb;
+		line-height: 1.5em;
+		margin-right: 0.5em;
+		padding: 0.5em;
+		width: 73%;
+	}
+	/* Results */
+		.pd-search-cw .promo-results {
+			margin-top: 1em;
+		}
+		.pd-search-cw .promo-results ul {
+			background: #ccc;
+			background: rgba(255, 255, 255, 0.85);
+			padding: 0.5em 0 0;
+			overflow: auto;
+			outline: 1px solid #ddd;
+		}
+		.pd-search-cw .promo-results ul li {
+			float: left;
+			margin: 0 0 .5em 0;
+			padding: 0 1.5em;
+			width: 50%;
+		}
+		.pd-search-cw .promo-results ul li.odd {
+			border-right: 1px solid #ddd;
+		}
+	/* Footer */
+		.pd-search-cw .promo-footer {
+			background: #fff;
+			padding: 0.5em 0;
+			text-align: center;
+		}
+		.pd-search-cw .promo-footer a {
+			font-size: 1em;
+		}

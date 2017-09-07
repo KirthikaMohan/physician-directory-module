@@ -1,0 +1,26 @@
+<script language="javascript" type="text/javascript" src="http://js.preview.webmd.com/dtmcms/preview/webmd/PageBuilder_Assets/JS/scripts1067.js"></script>
+
+<link rel="stylesheet" type="text/css" href="http://css.webmd.com/dtmcms/live/webmd/PageBuilder_Assets/CSS/Site/WebMD_091e9c5e8004a22427.css"/>
+<link rel="stylesheet" type="text/css" href="../css/auto-search.css" />
+
+<div class="pd-search-rr promo-{promo} promo-1" style="width:300px;">
+	<h5><a href="//doctor.webmd.com" onclick="return sl(this,\'\',\'{metric}_logo\');"><span class="jawsonly">WebMD Physician Directory</span></a></h5>
+	<h4>{specialist} in<br />
+		<span class="location">
+			<a class="loc">{location}</a>
+			<form name="geolocation" class="hidden">
+				<input type="text" id="loc" class="location" maxlength="255" name="loc" tabindex="2" value="{location}" autocomplete="off" placeholder="Enter Zip Code or City, State" data-key="true">
+				<input type="submit" value="" />
+			</form>
+		</span></h4>
+	<div class="promo-results">
+		<ul>{results}</ul>
+		<div class="promo-footer">
+			<a href="//doctor.webmd.com/results?{query}" onclick="return sl(this,\'\',\'{metric}_more\');">More {specialist}</a>
+		</div>
+	</div>
+</div>
+
+<div class="pd-search-rr promo-{promo}"><h5><a href="//doctor.webmd.com" onclick="return sl(this,\'\',\'{metric}_logo\');"><span class="jawsonly">WebMD Physician Directory</span></a></h5><h4>{specialist} in<br /><span class="location"><a class="loc">{location}</a><form name="geolocation" class="hidden"><input type="text" id="loc" class="location" maxlength="255" name="loc" tabindex="2" value="{location}" autocomplete="off" placeholder="Enter Zip Code or City, State" data-key="true"><input type="submit" value="" /></form></span></h4><div class="promo-results"><ul>{results}</ul><div class="promo-footer"><a href="//doctor.webmd.com/results?{query}" onclick="return sl(this,\'\',\'{metric}_more\');">More {specialist}</a></div></div></div>
+
+<li{addclass}><a href="{url}" onclick="return sl(this,\'\',\'{metric}_{i}\');">{name}</a><br />{distance} mile(s) from {city}, {state}</li>

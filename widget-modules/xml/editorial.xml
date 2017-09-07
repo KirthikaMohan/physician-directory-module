@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<webmd_rendition>
+	<content>
+		<wbmd_asset object_type="wbmd_pb_module" id="091e9c5e815b6bf9" xmlns:xalan="http://xml.apache.org/xalan" xmlns:fn="http://www.w3.org/2005/02/xpath-functions">
+			<webmd_module>
+				<module_settings>
+					<chronic_id>091e9c5e815ad5f9</chronic_id>
+					<r_object_id>091e9c5e815b6bf9</r_object_id>
+					<title>lhd-site-test-1</title>
+					<object_name>module_lhd-site-test-1_091e9c5e815ad5f9.xml</object_name>
+					<object_type>wbmd_pb_sharedmodule</object_type>
+					<wbmd_pb_module_category>
+					</wbmd_pb_module_category>
+					<wbmd_pb_dyn_module_category>
+					</wbmd_pb_dyn_module_category>
+					<md_pb_module_label1_group>
+						<wbmd_pb_module_label1>
+						</wbmd_pb_module_label1>
+					</md_pb_module_label1_group>
+					<md_pb_module_label2_group>
+						<wbmd_pb_module_label2>
+						</wbmd_pb_module_label2>
+					</md_pb_module_label2_group>
+					<wbmd_pb_module_sp_program>
+					</wbmd_pb_module_sp_program>
+					<wbmd_pb_module_tier>0</wbmd_pb_module_tier>
+					<wbmd_pb_cache_duration>0</wbmd_pb_cache_duration>
+					<r_modify_date>02/10/2017 12:20:25</r_modify_date>
+					<wbmd_c_channel_ids_group>
+					</wbmd_c_channel_ids_group>
+					<wbmd_program_group>
+					</wbmd_program_group>
+					<wbmd_pb_asset_css path="/webmd/PageBuilder_Assets/CSS/EditorialModule/Single Image Above Links/Blank_091e9c5e800a37d1.css" object_type="wbmd_pb_css" chronic_id="091e9c5e800a37d1">
+					</wbmd_pb_asset_css>
+					<wbmd_pb_module_xsl path="/webmd/PageBuilder_Assets/XSL/EditorialModule/Composite Left_091e9c5e800182ae.xsl" object_type="wbmd_pb_xsl" chronic_id="091e9c5e800182ae">
+					</wbmd_pb_module_xsl>
+					<wbmd_pb_moduledataschema path="/webmd_uk/PageBuilder_Assets/schemas/module_schemas/EditorialModule.xsd" object_type="wbmd_pb_schemas" chronic_id="091e9c5e80005117">
+					</wbmd_pb_moduledataschema>
+					<wbmd_pb_moduledataschema path="/webmd/PageBuilder_Assets/schemas/module_schemas/EditorialModule.xsd" object_type="wbmd_pb_schemas" chronic_id="091e9c5e80005117">
+					</wbmd_pb_moduledataschema>
+					<wbmd_pb_owner_page_id path="/webmd/PageBuilder_Assets/Shared_Modules/EditorialModule/lhd-site-test-1_091e9c5e815ad5f9/smc_lhd-site-test-1_091e9c5e815ad5f9.xml_091e9c5e815ad5fa.xml" object_type="wbmd_pb_page" chronic_id="091e9c5e815ad5fa">
+					</wbmd_pb_owner_page_id>
+					<dnn_id>0</dnn_id>
+					<class>EditorialModule</class>
+				</module_settings>
+				<module_data>
+					<module_title>footer</module_title>
+					<module_link_view>Page Refresh(Default)</module_link_view>
+					<module_link chronic_id="" directive="friendlyurl" object_type="">
+					</module_link>
+					<links>
+						<link_bullet>true</link_bullet>
+						<link>
+							<link_text>distance</link_text>
+							<action_text>15</action_text>
+							<link_link_view>Page Refresh(Default)</link_link_view>
+							<link_url chronic_id="" directive="friendlyurl" object_type=""></link_url>
+							<link_source_icon chronic_id="" directive="imageurl" object_type="" wbmd_lookup_type="" wbmd_storage_value="" path="" alt=""></link_source_icon>
+						</link>
+					</links>
+					<descriptions>
+						<description>
+							<description_text>images|true</description_text>
+						</description>
+					</descriptions>
+					<body_images>
+						<body_image>
+							<override_text>abco-tjuphil16</override_text>
+							<image_link_view>Page Refresh(Default)</image_link_view>
+							<alignment>left</alignment>
+							<source chronic_id="" directive="imageurl" object_type="" wbmd_lookup_type="" wbmd_storage_value="" path="" alt=""/>
+							<image_link chronic_id="" directive="friendlyurl" object_type=""></image_link>
+						</body_image>
+					</body_images>
+				</module_data>
+			</webmd_module>
+		</wbmd_asset>
+	</content>
+	<friendlyurls>
+	</friendlyurls>
+	<referenced_objects>
+	</referenced_objects>
+	<container_hierarchy>
+	</container_hierarchy>
+	<expanded_objects>
+	</expanded_objects>
+</webmd_rendition>

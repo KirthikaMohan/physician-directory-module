@@ -1,0 +1,49 @@
+<div class="pd-search-rr promo-{promo}">
+	<h5><a href="//doctor.webmd.com" onclick="return sl(this,\'\',\'pd-wdgt-nrby_logo\');"><span class="jawsonly">WebMD Physician Directory</span></a></h5>
+	<h4>Find a {specialist} in <span class="location">{location}</span></h4>
+	<form id="pd-rr" action="//doctor.webmd.com/results" method="get">
+		<input type="hidden" id="city" name="city" value="{city}" />
+		<input type="hidden" id="state" name="state" value="{state}" />
+		<input type="hidden" id="zip" name="zip" value="{zip}" />
+		<input type="hidden" id="lat" name="lat" value="{lat}" />
+		<input type="hidden" id="lon" name="lon" value="{lon}" />
+		<input type="hidden" id="tname" name="tname" value="General Practice" />
+		<fieldset>
+			<select id="sd" name="sd">
+				<option value="3" data-tname="Allergy &amp; Immunology">Asthma &amp; Allergy Specialist</option>
+				<option value="5" data-tname="Anesthesiology">Anesthesiologist</option>
+				<option value="12" data-tname="Cardiology">Cardiologist</option>
+				<option value="1031" data-tname="Chiropractor">Chiropractor</option>
+				<option value="25" data-tname="Dermatology">Dermatologist</option>
+				<option value="67" data-tname="Otolaryngology">Ear, Nose and Throat Doctor</option>
+				<option value="30" data-tname="Emergency Medicine">Emergency Medicine</option>
+				<option value="29" data-tname="Endocrinology, Diabetes &amp; Metabolism">Endocrinologist</option>
+				<option value="31" data-tname="Family Medicine">Family Physician</option>
+				<option value="34" data-tname="Gastroenterology">Gastroenterologist</option>
+				<option value="37" data-tname="General Practice" selected="selected">General Practicioner</option>
+				<option value="99" data-tname="Surgery">General Surgery</option>
+				<option value="35" data-tname="Internal Medicine - Geriatrics">Geriatrician</option>
+				<option value="40" data-tname="Hematology/Oncology">Hematologist/Oncologist</option>
+				<option value="43" data-tname="Infectious Disease">Infectious Disease Specialist</option>
+				<option value="44" data-tname="Internal Medicine">Internist</option>
+				<option value="52" data-tname="Neurology">Neurologist</option>
+				<option value="61" data-tname="Obstetrics &amp; Gynecology">Obstetrician &amp; Gynecologist</option>
+				<option value="65" data-tname="Ophthalmology">Ophthalmologist</option>
+				<option value="66" data-tname="Orthopaedic Surgery">Orthopaedic Surgeon</option>
+				<option value="1169" data-tname="Pain Management">Pain Management Doctor</option>
+				<option value="69" data-tname="Pediatrics">Pediatrician</option>
+				<option value="91" data-tname="Plastic Surgery">Plastic Surgeon</option>
+				<option value="81" data-tname="Physical Medicine &amp; Rehabilitation">Physical Therapist</option>
+				<option value="94" data-tname="Psychiatry">Psychiatrist</option>
+				<option value="72" data-tname="Pulmonary Disease">Pulmonologist</option>
+				<option value="97" data-tname="Radiation Oncology">Radiation Oncologist</option>
+				<option value="1193" data-tname="Radiology">Radiologist</option>
+				<option value="96" data-tname="Rheumatology">Rheumatologist</option>
+				<option value="165" data-tname="Sleep Medicine">Sleep Specialist</option>
+				<option value="101" data-tname="Sports Medicine">Sports Medicine Physician</option>
+				<option value="103" data-tname="Urology">Urologist</option>
+			</select>
+			<button type="submit" class="webmd-btn webmd-btn-pr webmd-btn-xs">Go</button>
+		</fieldset>
+	</form>
+</div>

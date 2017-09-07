@@ -1,0 +1,43 @@
+<div id="[module-id]" class="pd-bucket">
+	<!--script>
+		require(['pdmodule/1/bucket'], function (bucket) {
+			bucket.init({
+				target: '#' + [module-id],
+				id: [id] || 37,
+				number: [number] || 4
+			});
+		});
+	</script-->
+	<div class="pd-header">
+		<h4><a href="/doctor/" onclick="return sl(this,'','pd-wdgt-nrby_logo');" title="WebMD Physician Finder"><span class="jawsonly">WebMD Physician Finder</span></a></h4>
+		<form>
+			<a href="javascript://" onclick="return sl(this,'','pd-wdgt-nrby_lct');" class="pd-loc-ex">Change Your Location</a>
+			<fieldset>
+				<input type="text" name="loc" value="[City], [ST] [Zip]" />
+				<input type="submit" value="" />
+			</fieldset>
+		</form>
+	</div>
+	<div class="pd-results">
+		<h5>[Specialists] in Your Area</h5>
+		<ul>
+			<!-- Injected by JS -->
+			<li><a href="javascript://" onclick="return sl(this,'','pd-wdgt-nrby_{#}');">{Doctor Name}</a><br />
+				<strong>{Specialty}</strong><br />
+				{#} miles from {City}, {ST}</li>
+			<li><a href="javascript://" onclick="return sl(this,'','pd-wdgt-nrby_{#}');">{Doctor Name}</a><br />
+				<strong>{Specialty}</strong><br />
+				{#} miles from {City}, {ST}</li>
+			<li><a href="javascript://" onclick="return sl(this,'','pd-wdgt-nrby_{#}');">{Doctor Name}</a><br />
+				<strong>{Specialty}</strong><br />
+				{#} miles from {City}, {ST}</li>
+			<li class="last"><a href="javascript://" onclick="return sl(this,'','pd-wdgt-nrby_{#}');">{Doctor Name}</a><br />
+				<strong>{Specialty}</strong><br />
+				{#} miles from {City}, {ST}</li>
+			<!-- /Injected by JS -->
+		</ul>
+	</div>
+	<div class="pd-footer">
+		<a href="/doctor/results?sd=[id]&tname=[Specialty]" onclick="return sl(this,'','pd-wdgt-nrby_more');">More [Specialists]</a>
+	</div>
+</div>

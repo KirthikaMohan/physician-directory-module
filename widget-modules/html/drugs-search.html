@@ -1,0 +1,34 @@
+<div id="search-drugs2" class="pd-search">
+	<script>
+		require(['pdmodules/1/search'], function (search) {
+			var searchdrugs2 = webmd.object(search);
+
+			searchdrugs2.init({
+				target: '#search-drugs2',
+				name: 'searchdrugs2',
+				css: '/webmd/consumer_assets/site_images/amd_modules/pdmodules/1/drugs-search.css',
+				template: '<div class="pd-search-cw module"><h3>Find a Physician in <span class="location"><a class="loc" title="Change Location">{location}</a><form name="geolocation" class="hidden"><input type="text" id="loc" class="location" maxlength="255" name="loc" tabindex="2" value="{location}" autocomplete="off" placeholder="Enter Zip Code or City, State" data-key="true"><input type="submit" tabindex="3" value="Change Location" class="submit webmdBtn" /></form></span></h3><div class="promo-results"><ul></ul><div class="promo-footer"><a href="{query}" onclick="return sl(this,\'\',\'{metric}_more\');" rel="nofollow">More {specialist}</a></div></div></div>'
+			});
+		});
+	</script>
+</div>
+
+<div class="pd-search-cw module">
+	<h3>Find a Physician in 
+		<span class="location">
+			<a class="loc" title="Change Location">{location}</a>
+			<form name="geolocation" class="hidden">
+				<input type="text" id="loc" class="location" maxlength="255" name="loc" tabindex="2" value="{location}" autocomplete="off" placeholder="Enter Zip Code or City, State" data-key="true">
+				<input type="submit" tabindex="3" value="Change Location" class="submit webmdBtn" />
+			</form>
+		</span>
+	</h3>
+	<div class="promo-results">
+		<ul></ul>
+		<div class="promo-footer">
+			<a href="{query}" onclick="return sl(this,\'\',\'{metric}_more\');" rel="nofollow">More {specialist}</a>
+		</div>
+	</div>
+</div>
+
+<div class="pd-search-cw module"><h3>Find a Physician in <span class="location"><a class="loc" title="Change Location">{location}</a><form name="geolocation" class="hidden"><input type="text" id="loc" class="location" maxlength="255" name="loc" tabindex="2" value="{location}" autocomplete="off" placeholder="Enter Zip Code or City, State" data-key="true"><input type="submit" tabindex="3" value="Change Location" class="submit webmdBtn" /></form></span></h3><div class="promo-results"><ul></ul><div class="promo-footer"><a href="{query}" onclick="return sl(this,\'\',\'{metric}_more\');" rel="nofollow">More {specialist}</a></div></div></div>

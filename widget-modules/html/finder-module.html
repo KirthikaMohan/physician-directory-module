@@ -1,0 +1,92 @@
+<section class="lhd-finder" id="[$module_settings/title]">
+	<div class="content-section header">
+		<h2>{Find Specialists} {Who Treat} {Condition} Near {City}, {ST}</h2>
+		<div class="attribution">
+			<img alt="Sponsorship Logo" />
+		</div>
+		<div class="finder-logo">
+			<b>BY</b>
+			<i><span class="jawsonly">WebMD</span></i>
+			<span>Doctor Finder</span>
+		</div>
+	</div>
+	<form id="pdSearch" class="pd-search-form" action ="//doctor.webmd.com/results">
+		<div class="search-area">
+			<fieldset>
+				<label for="ln">
+					<h4>Find</h4>
+				</label>
+				<input type="text" id="ln" class="name" maxlength="255" name="ln" tabindex="1" value autocomplete="off" placeholder="Doctors" data-key="true">
+				
+				<label for="loc">
+					<h4>near</h4>
+				</label>
+				<input type="text" id="loc" class="name" maxlength="255" name="loc" tabindex="2" value autocomplete="off" placeholder="Your Location" data-key="true">
+
+				<label for="hp">
+					<h4>who accept</h4>
+				</label>
+				<select id="hp" class="name" name="hp" tabindex="3">
+					<option value="" disabled selected>Any Insurance</option>
+					<option value="BCBS">BCBS</option>
+					<option value="Signa">Signa</option>
+				</select>
+				<a href="//doctor.webmd.com/results" onclick="return sl(this,'nw','[$module_settings/title]_more');">see more doctors <i class="rsArrow rsArrowRight"></i></a>
+			</fieldset>
+		</div>
+	</form>
+	<div class="content-section results">
+		<ul>
+			<!--Injected with JS-->
+			{<li class="result">
+				<!--"If" photo exists add here-->
+				{<img class="image" src="{provider photo}" />}
+				<div class="content">
+					<h4>{Title} {First Name} {Middle Initial}. {Last Name}, {Degrees}</h4>
+					<p>{Specialty List}</p>
+					{<i class="featured">Featured</i>}
+					<!--If ratings show the stars-->
+					{<div class="star-rating">
+						<span class="rating overall" data-rating>
+							<i>
+								<!--Complete this section....Remember half stars-->
+								<a href="{provider url}" class="star" onclick="return..........">
+									<i class="icon-star">
+									</i>
+								</a>
+							</i>
+							<i>
+								<a class="star">
+									<i class="icon-star">
+									</i>
+								</a>
+							</i>
+							<i>
+								<a class="star">
+									<i class="icon-star">
+									</i>
+								</a>
+							</i>
+							<i>
+								<a class="star">
+									<i class="icon-star">
+									</i>
+								</a>
+							</i>
+							<i>
+								<a class="star">
+									<i class="icon-star">
+									</i>
+								</a>
+							</i>
+						</span>
+					</div>}
+					<p class="address">
+						{street address}<br>
+						{city}, {ST} {zip}
+					</p>
+				</div>
+			</li>}
+		</ul>
+	</div>
+</section>
